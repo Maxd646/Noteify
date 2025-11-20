@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noteify - Sign Up</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">Noteify</a>
+        <div class="nav-links">
+            <a href="login.html">Login</a>
+            <a href="signup.html" class="active">Sign Up</a>
+        </div>
+    </nav>
+
+    <!-- Main Sign Up Section -->
+    <main class="signup-page">
+        <section class="signup-container">
+            <header class="signup-header">
+                <h1>Create Account</h1>
+                <p>Sign up to start taking notes with Noteify</p>
+            </header>
+
+            <form class="signup-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                </div>
+
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+
+            <div class="signup-options">
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="signup-footer">
+        <div class="footer-content">
+            <span>© 2025 Noteify. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Help</a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
